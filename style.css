@@ -4,12 +4,14 @@ body {
     padding: 0;
     font-family: 'Gilroy', sans-serif;
 }
+
 #round1 {
     margin-top: -1.4rem;
     padding: 0 25% 0;
     position: absolute;
     z-index: -1;
 }
+
 .head {
     display: flex;
     justify-content: space-between;
@@ -60,7 +62,34 @@ body {
 
 
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 10% 2rem;
+}
+.menu__block {
+    margin-left: 0;
+    padding: 1rem; 
+}
+.menu__point {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #73738D;
+    list-style-type: none; 
+    padding-bottom: 1rem;
+}
+.menu__point_bold {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #222222;
+}
 
+.round5 {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: -15rem;
+}
 
 .foot {
     margin:  2rem auto 3rem;
