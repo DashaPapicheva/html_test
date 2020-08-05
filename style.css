@@ -15,3 +15,26 @@ body {
     font-size: 2rem;
     text-align: center;
 }
+.head__menu {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head__menuItem {
+    color: #73738D;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: auto 1.5rem auto;
+}
+.head__menuItem_blueInRound {
+    margin-right: 0;
+    color: #1943EF;
+    border: 1.03958px solid #1943EF;
+    border-radius: 33.9597px;
+    padding: 1rem 2rem 1rem;
+}
+.head__menuItem_blueInRound:hover {
+    background-color: #1943EF;
+    color: #222222 ;
+}
