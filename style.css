@@ -1,4 +1,17 @@
 body {
     background-color: #FFFFFF;
     margin: 0;
+    font-family: 'Gilroy', sans-serif;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 10% 2rem;
+}
+.head__name {
+    color: #222222;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
 }
