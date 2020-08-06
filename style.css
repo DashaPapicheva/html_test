@@ -5,6 +5,10 @@ body {
     font-family: 'Gilroy', sans-serif;
     width: 100%;
 }
+a {
+    text-decoration: none;
+    color: #73738D;
+}
 
 #round1 {
     position: relative;
@@ -36,6 +40,7 @@ body {
     font-size: 1rem;
     margin: auto 1.5rem auto;
 }
+
 .head__menuItem_blueInRound {
     margin-right: 0;
     color: #1943EF;
@@ -167,6 +172,9 @@ input::placeholder {
     color: #222222;
     margin-bottom: 3rem;
 }
+.usersAboutUs__centralPict {
+    z-index: 1;
+}
 .usersAboutUs__feedback {
     margin: 0 auto 2rem;
     width: 35rem;
@@ -200,15 +208,15 @@ input::placeholder {
 }
 #user2 {
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     top: 59rem;
-    left: 15rem;
+    left: 15%;
 }
 #roundUser2 {
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     top: 59rem;
-    left: 15rem;
+    left: 15%;
 }
 #user3 {
     position: absolute;
@@ -218,20 +226,20 @@ input::placeholder {
 }
 #user4 {
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     right: 0rem;
     top: 52rem;
 }
 #roundUser4 {
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     right: 0rem;
     top: 52rem;
 }
 #user5 {
     position: absolute;
     z-index: -1;
-    right: 22rem;
+    right: 22%;
     top: 57rem;
 }
 #user6 {
@@ -319,6 +327,7 @@ input::placeholder {
     list-style-type: none; 
     padding-bottom: 1rem;
 }
+
 .menu__point_bold {
     font-weight: 600;
     font-size: 1.5rem;
