@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Gilroy', sans-serif;
+    width: 100%;
 }
 
 #round1 {
@@ -153,8 +154,105 @@ input::placeholder {
     position: absolute;
     z-index: -1;
     left: 0;
-    top: 37rem;
+    top: 40rem;
 }
+
+.usersAboutUs {
+    margin: 3rem auto 5rem;
+    text-align: center;
+}
+.usersAboutUs__header {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #222222;
+    margin-bottom: 3rem;
+}
+.usersAboutUs__feedback {
+    margin: 0 auto 2rem;
+    width: 35rem;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 8.31667px;
+    padding: 2rem;
+    padding-top: 0;
+}
+.usersAboutUs__usersName{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #222222;
+}
+.usersAboutUs__decorPict {
+    margin: 1.5rem auto 0.5rem;
+}
+.usersAboutUs__feedbackText {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #73738D;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+#user1 {
+    position: absolute;
+    z-index: -1;
+    left: 5rem;
+    top: 54rem;
+}
+#user2 {
+    position: absolute;
+    z-index: 1;
+    top: 59rem;
+    left: 15rem;
+}
+#roundUser2 {
+    position: absolute;
+    z-index: -1;
+    top: 59rem;
+    left: 15rem;
+}
+#user3 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 78rem;
+}
+#user4 {
+    position: absolute;
+    z-index: 1;
+    right: 0rem;
+    top: 52rem;
+}
+#roundUser4 {
+    position: absolute;
+    z-index: -1;
+    right: 0rem;
+    top: 52rem;
+}
+#user5 {
+    position: absolute;
+    z-index: -1;
+    right: 22rem;
+    top: 57rem;
+}
+#user6 {
+    position: absolute;
+    z-index: -1;
+    right: 5rem;
+    margin-top: 17rem;
+}
+
+#groupLine {
+    position: relative;
+    bottom: 2rem;
+    left: 1.8rem;
+}
+#groupBlueSquare {
+    position: relative;
+    z-index: -1;
+    bottom: 3.4rem;
+    left: 16.5rem;
+}
+
 #round5{
     position: relative;
     z-index: -1;
@@ -163,7 +261,7 @@ input::placeholder {
 }
 
 .tryBlock {
-    margin: 1rem auto 1rem;
+    margin: 10rem auto 1rem;
     width: 80%;
     height: 9rem;
     background-color: #FFFFFF;
@@ -231,7 +329,7 @@ input::placeholder {
     position: absolute;
     z-index: -1;
     right: 0;
-    top: 70rem;
+    top: 120rem;
 }
 
 .foot {
