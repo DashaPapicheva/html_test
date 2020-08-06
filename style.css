@@ -6,16 +6,16 @@ body {
 }
 
 #round1 {
-    margin-top: -1.4rem;
-    padding: 0 25% 0;
-    position: absolute;
+    position: relative;
     z-index: -1;
+    top: 0;
+    left: -6rem;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
-    margin: 0 10% 2rem;
+    margin: 0 12% 2rem;
 }
 .head__name {
     color: #222222;
@@ -46,19 +46,116 @@ body {
     background-color: #1943EF;
     color: #222222 ;
 }
-/* .squareOfRounds {
-    background-image: url(pict/Small_round.svg);
-    height: 40px;
-    width: 40px;
-    background-repeat: round;
-} */
-/* .squareOfRounds {
-    width: 2.5rem;
-} */
 
+#squareOfRounds {
+    position: relative;
+    z-index: -1;
+    top: 3.7rem; 
+    margin-left: -1rem;
+}
+.whoWeAre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12% 2rem;
+}
+.whoWeAre__textBlock {
+    max-width: 32rem;
+    margin-bottom: 7rem;
+}
+.whoWeAre__header {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #222222;
+}
 
+.whoWeAre__mainText {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #73738D;
+    margin: 1rem 0 1rem;
+    line-height: 2rem;
+}
+.whoWeAre__emailPlace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.whoWeAre__emailId input {
+    width: 31rem;
+    height: 3rem;
+    background: #FFFFFF;
+    border: 1.03958px solid #FFFFFF;
+    border-radius: 33.9597px;
+    box-shadow: 0 0 1rem #E5E5E5;
+    outline: none;
+    color: #222222;
+    font-family: 'Gilroy', sans-serif;
+    z-index: -1;
+    padding-left: 1rem;
+}
+input::placeholder {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    color: rgba(115, 115, 141, 0.6);
+}
+.whoWeAre__button {
+    position: absolute;
+    background-color: #1943EF;
+    border-radius: 33.9597px;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 10rem;
+    color: #FFFFFF;
+    padding: 1.1rem 1.7rem 1.1rem;
+    text-align: center;
+    margin-left: 19rem;
+}
+.whoWeAre__button:hover {
+    background-color: #FFFFFF; 
+    color: #1943EF;
+    border: 1.03958px solid #1943EF;
+}
+.whoWeAre__platformPluses {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+.whoWeAre__plus {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1rem;
+}
+.whoWeAre__plusText {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #73738D;
+}
 
-.round4{
+.whoWeAre__platformPict {
+    margin-right: 2rem;
+}
+#round2{
+    position: relative;
+    z-index: -1;
+    top: 4.5rem;
+    left: 1rem;
+}
+#round3{
+    position: relative;
+    z-index: -1;
+    bottom: 7rem;
+    left: 14.5rem;
+}
+#round4{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 37rem;
+}
+#round5{
     position: relative;
     z-index: -1;
     left: -2rem;
@@ -100,6 +197,7 @@ body {
     padding: 1.2rem 1.7rem 1.2rem;
     margin-right: 2rem;
     text-align: center;
+    max-height: 3rem;
 }
 .tryBlock__button:hover {
     background-color: #FFFFFF; 
@@ -129,11 +227,11 @@ body {
     color: #222222;
 }
 
-.round5 {
+#round6 {
     position: absolute;
     z-index: -1;
     right: 0;
-    bottom: -10rem;
+    top: 70rem;
 }
 
 .foot {
